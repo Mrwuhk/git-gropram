@@ -18,8 +18,8 @@ int main(int argc, const char * argv[]) {
 //        [heng setNumberator:1];
 //        [heng setDenominator:3];
         // 设置分数为1/3
-                [heng setNumberator:1];
-                [heng setDenominator:3];
+               heng.numberator=1;
+                heng.denominator=3;
         //显示分数
         NSLog(@"The value of mu Fraction is:");
         [heng print];
